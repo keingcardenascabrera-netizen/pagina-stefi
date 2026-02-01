@@ -1,6 +1,5 @@
 
 import React from 'react';
-// Added Heart to imports to fix the 'Cannot find name Heart' error
 import { Sparkles, ArrowRight, Heart } from 'lucide-react';
 
 const Hero: React.FC = () => {
@@ -47,18 +46,18 @@ const Hero: React.FC = () => {
 
           <div className="relative order-1 lg:order-2">
             <div className="relative z-10 animate-float" style={{ animationDuration: '8s' }}>
-              {/* Efecto de Aura */}
+              {/* Efecto de Aura Espiritual */}
               <div className="absolute -inset-10 bg-rose-200/40 rounded-full blur-3xl animate-pulse"></div>
               <div className="absolute -inset-4 bg-gradient-to-tr from-rose-200 to-purple-200 rounded-[4rem] opacity-30 blur-xl"></div>
               
               <div className="relative aspect-[4/5] max-w-md mx-auto">
                 <img 
-                  src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&q=80&w=800" 
+                  src="https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?auto=format&fit=crop&q=80&w=800" 
                   alt="Valentina Luna - Fundadora de SoulRise" 
                   className="relative rounded-[4rem] w-full h-full object-cover shadow-2xl border-8 border-white/50 transition-transform duration-700 hover:scale-[1.02]"
                 />
                 
-                {/* Floating Badge */}
+                {/* Etiqueta Flotante de Prestigio */}
                 <div className="absolute -bottom-6 -right-6 glass p-6 rounded-3xl shadow-2xl hidden lg:block animate-float border border-white" style={{ animationDelay: '1s' }}>
                   <div className="flex items-center gap-3">
                     <div className="w-12 h-12 bg-rose-100 rounded-full flex items-center justify-center">
@@ -76,7 +75,7 @@ const Hero: React.FC = () => {
         </div>
       </div>
       
-      {/* Onda decorativa en el footer del hero */}
+      {/* Onda decorativa */}
       <div className="absolute bottom-0 left-0 w-full opacity-30 select-none pointer-events-none">
         <svg viewBox="0 0 1440 320" xmlns="http://www.w3.org/2000/svg">
           <path fill="#FCE7F3" fillOpacity="1" d="M0,224L48,213.3C96,203,192,181,288,181.3C384,181,480,203,576,213.3C672,224,768,224,864,213.3C960,203,1056,181,1152,181.3C1248,181,1344,203,1392,213.3L1440,224L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path>

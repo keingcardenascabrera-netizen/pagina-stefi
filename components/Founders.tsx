@@ -7,7 +7,7 @@ const founders = [
     name: "Valentina Luna",
     role: "Fundadora y Guía Principal",
     bio: "Visionaria de SoulRise y canalizadora de energía. Valentina dedica su vida a recordar a otros que el amor propio es el pilar de toda sanación.",
-    image: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&q=80&w=600",
+    image: "https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?auto=format&fit=crop&q=80&w=600",
     isMain: true
   },
   {
