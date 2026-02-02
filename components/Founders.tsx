@@ -7,7 +7,7 @@ const founders = [
     name: "Valentina Luna",
     role: "Fundadora y Guía Principal",
     bio: "Visionaria de SoulRise y canalizadora de energía. Valentina dedica su vida a recordar a otros que el amor propio es el pilar de toda sanación.",
-    image: "https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?auto=format&fit=crop&q=80&w=600",
+    image: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&q=80&w=600",
     isMain: true
   },
   {
@@ -59,7 +59,7 @@ const Founders: React.FC = () => {
                   
                   <div className="flex items-center gap-2 text-rose-400 mb-3">
                     <Sparkles size={16} />
-                    <span className="text-xs font-bold uppercase tracking-[0.2em]">{founder.role}</span>
+                    <span className="text-xs font-bold uppercase tracking-[0.2em] font-sans">{founder.role}</span>
                   </div>
                   <h3 className="text-3xl font-serif text-slate-800 mb-4">{founder.name}</h3>
                   <p className="text-slate-600 leading-relaxed max-w-md italic">

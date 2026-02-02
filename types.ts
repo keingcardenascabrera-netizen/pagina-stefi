@@ -1,24 +1,23 @@
+
 import React from 'react';
 
 export interface Service {
-  id: string;
   title: string;
   description: string;
-  // Fix: Added React import to resolve the namespace error for React.ReactNode
   icon: React.ReactNode;
+  color: string;
 }
 
 export interface Product {
-  id: string;
   name: string;
   price: number;
-  image: string;
   category: string;
+  image: string;
 }
 
 export interface Testimonial {
-  id: string;
   name: string;
-  text: string;
   role: string;
+  text: string;
+  image: string;
 }
